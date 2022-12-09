@@ -20,6 +20,6 @@ adderess = "sangola";
 pin_cod = "413307";
 gender =  "male";
 is_married = "married";
-is_married = "married";
-console.log(firstName,lastName,age,adderess,pin_cod,gender,);
+
+console.log(firstName,lastName,age,adderess,pin_cod,gender,is_married );
 

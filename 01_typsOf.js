@@ -1,6 +1,6 @@
 var bankName;
 console.log("***********************Before Initialization***********************************************");
-console.log(typeof bankName) 
+console.log(typeof bankName); 
 console.log("*********************After Initialization**********************************************");
 console.log(typeof bankName);
 console.log("---------------------------------------------------------------------------------------------------------------------------------------------");

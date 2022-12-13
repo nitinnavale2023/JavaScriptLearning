@@ -36,6 +36,7 @@ console.log("To lower case", greet.toLowerCase());
 console.log("======== Trim ==========");
 var greet = "    Good Morning     ";
  console.log("Length", greet.length);
+ 
  var resultTrim = greet.trim();
   console.log( "trim()", resultTrim, "Length: ", resultTrim.length);
 

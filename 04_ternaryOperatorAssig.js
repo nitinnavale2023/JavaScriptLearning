@@ -23,4 +23,4 @@ function evenOdd1(value){
 }
 evenOdd1("JavaScript");
 evenOdd1("developer" );
-evenOdd1("Google"    );
+evenOdd1("Google" );

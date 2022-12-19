@@ -29,7 +29,7 @@ console.log(`-------------------------------------------------------------------
 
 
 function gradeCalculation(marks){
-    if(marks>=90 && marks<100){
+    if(marks>=90 && marks<=100){
         console.log(`Funtastic Marks :- ${marks}, Your grade is A++ `)
     }
     if(marks>=75 && marks<90){
@@ -41,7 +41,7 @@ function gradeCalculation(marks){
     if(marks>=35 && marks<50){
         console.log(`Marks is ${marks}, Your grade is C, Need improvement`)
     }
-    if(marks<0 || marks>100 ){
+    if(marks<=0 || marks>100 ){
         console.log(`Please Provide the valid marks `);
     }
 }

@@ -1,3 +1,5 @@
+
+
 var bankName;
 console.log("***********************Before Initialization***********************************************");
 console.log(typeof bankName); 

@@ -1,36 +1,36 @@
 
 
- function voting(age){
-    if(age<=0 || age>120){
-        console.log(`Invalid data`);
-    }
-    else 
-    if(age>=18){
-        console.log(`voting age ${age} for eligible`);
-    }
-  else{
-    console.log(`voting age ${age} for Not eligible`);
-  }
-}
-voting(45);
-voting(17);
-voting(8);
-voting(20);
-voting(-10);
-voting(200);
-voting(0);
+//  function voting(age){
+//     if(age<=0 || age>120){
+//         console.log(`Invalid data`);
+//     }
+//     else 
+//     if(age>=18){
+//         console.log(`voting age ${age} for eligible`);
+//     }
+//   else{
+//     console.log(`voting age ${age} for Not eligible`);
+//   }
+// }
+// voting(45);
+// voting(17);
+// voting(8);
+// voting(20);
+// voting(-10);
+// voting(200);
+// voting(0);
 
-console.log(`------------------------------------------------------------------------------------------------------------------------`);
+// console.log(`------------------------------------------------------------------------------------------------------------------------`);
 
 
 function gradeCalculation(marks){
-   var a = typeof marks 
-    else
-    if(marks<=0 ||marks>100)
+  
+   if(typeof marks == "number"){
+     if(marks<=0 ||marks>100)
     {
         console.log(`Please Provide the valid Marks`);
     }
-    if(marks>=90)
+    if(marks>=90 && marks<=100)
     {
         console.log(`Funtastic Marks :- ${marks}, Your grade is A+`);
     }
@@ -46,10 +46,15 @@ function gradeCalculation(marks){
     {
         console.log(` Marks is :- ${marks}, Your grade is C, Need Improvement`);
     }
-    if( marks<35){
+    if( marks<35 && marks>0){
         console.log(` Marks is ${marks}, You are Fail`);
     }
    }
+   else{
+      console.log(`Invalid data, Enter Marks in number format`);
+   }
+}
+  
 gradeCalculation(98);
 gradeCalculation(80);
 gradeCalculation(90);

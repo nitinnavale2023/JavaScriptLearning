@@ -135,3 +135,16 @@ console.log(arrayOfNum);
 for (const element of arrayOfNum) {
     console.log(element);
 }
+
+ console.log(`======== join() ==========`);
+var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
+let joinResult = arrayOfNum.join(" ");
+console.log(joinResult);
+console.log(typeof joinResult);
+
+console.log(`======== concat() ==========`);
+var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
+let arrayOfNames = ["Moni", "Jenny", "Shenny", "Tomy"];
+let arrayOfCities = ["Pune", "Mumbai", "Banglore"];
+const concatArray = arrayOfNum.concat(arrayOfNames, arrayOfCities);
+console.log(concatArray);

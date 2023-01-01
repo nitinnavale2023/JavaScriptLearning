@@ -16,7 +16,7 @@ function Student(name, rollNo, age){
  let s2 = new Student("Jenny", 22, 35);
  console.log(s1);
 
- console.log(`===============================Prototypr======================================================================`);
+ console.log(`===============================Prototype======================================================================`);
 
  function Student(name, rollNo, age){
     this.name = name;

@@ -1,4 +1,4 @@
-console.log("A) Create Cllas");
+console.log("A) Create Class");
 console.log("--------------------------------------------------------------------------------------------------------------------------");
 class Bank  {
     constructor(bank_name, location, account_no, ifsc, interest_rate){

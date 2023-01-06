@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Session Storage  </title>
+    </head>
+    <body>
+        <h2> Session Storage Learning </h2>
+       <script>
+        console.log("Hello  Session Storage");
+        window.sessionStorage.setItem("name", "Nitin");
+        window.sessionStorage.setItem("grade", "A+");
+        
+        window.sessionStorage.setItem("city", "Sangola");
+        const len = window.sessionStorage.length;
+         console.log(len);
+        
+       
+         window.sessionStorage.removeItem("grade");
+         //window.sessionStorage.clear();
+       </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Local Storage  </title>
+    </head>
+    <body>
+        <h2> Session Storage Learning </h2>
+       <script>
+        console.log("Local Storage");
+        window.localStorage.setItem("firstName", "Nitin");
+        window.localStorage.setItem("lastName", "Navale");
+        window.localStorage.setItem("country", "India");
+        window.localStorage.setItem("runs", "35000");
+         const len = window.localStorage.length;
+         console.log(len);
+         console.log(window.localStorage.getItem("firstName"));
+         console.log(window.localStorage.getItem("country"));
+         console.log(window.localStorage.getItem("lastName"));
+         window.localStorage.removeItem("runs");
+         //window.localStorage.clear();
+       </script>
+    </body>
+</html>

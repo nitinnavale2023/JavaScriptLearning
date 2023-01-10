@@ -48,7 +48,7 @@ array_numbers.forEach((currentValue)=>{
 console.log(even );
 console.log(`--------------------------------------------------------------------------------------------------`);
 console.log();
-let sum = 0;
+let sum = 0; 
 array_numbers.forEach((currentValue)=>{
        sum += currentValue;
        
